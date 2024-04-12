@@ -1,6 +1,13 @@
-let courseName = "Typescript Boot Camp VersionII"
+let courseName = "Typescript Boot Camp VersionII";
 
-displayName(courseName);
+if(courseName){
+    var subtitle = "Learn the language fundamentals, build practical projects";
+    displayName(courseName);
+}
+
+console.log("can i access from outside ==> ", subtitle)
+
+
 
 function displayName(courseName: string){
     console.log("Course name : " , courseName.toLocaleUpperCase())
